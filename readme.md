@@ -11,6 +11,6 @@ A cada dia, é um novo desafio.
 # Jogo da croba 👍
 <img src="https://github.com/maatsuh/snake/raw/main/output/github-snake.gif" alt="GitHub Contribution Snake">
 
-# Sei lá, cenários infitos (Dê F5 para gerar um novo)
+# Sei lá, cenários infinitos (Dê F5 para gerar um novo) (a cada 5 minutos)
 
 <img src="https://worlds-qnkl.onrender.com/worldinfinite.gif" width="800">
