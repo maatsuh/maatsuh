@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Baixar repositório
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Atualizar v do GIF
@@ -23,37 +23,42 @@ jobs:
           import time
           from pathlib import Path
 
-          readme = Path("README.md")
-          content = readme.read_text(encoding="utf-8")
+          path = Path("readme.md")
+
+          if not path.exists():
+              raise SystemExit("readme.md não encontrado!")
+
+          text = path.read_text(encoding="utf-8")
 
           novo_v = int(time.time())
 
           pattern = r'(https://worlds-qnkl\.onrender\.com/worldinfinite\.gif\?v=)\d+'
 
-          novo_content, quantidade = re.subn(
+          novo_text, quantidade = re.subn(
               pattern,
               rf'\g<1>{novo_v}',
-              content
+              text
           )
 
           if quantidade == 0:
-              print("URL do GIF não encontrada no README.md")
-              raise SystemExit(1)
+              raise SystemExit(
+                  "A URL worldinfinite.gif?v=... não foi encontrada no readme.md"
+              )
 
-          readme.write_text(novo_content, encoding="utf-8")
+          path.write_text(novo_text, encoding="utf-8")
 
-          print(f"GIF atualizado para v={novo_v}")
+          print(f"URL atualizada para v={novo_v}")
           PY
 
-      - name: Salvar alteração no GitHub
+      - name: Commit e Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add README.md
+          git add readme.md
 
           if git diff --cached --quiet; then
-            echo "Nenhuma alteração necessária."
+            echo "Nenhuma alteração."
           else
             git commit -m "Atualizar versão do GIF"
             git push
