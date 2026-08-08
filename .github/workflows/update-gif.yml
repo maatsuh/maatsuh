@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Baixar repositório
         uses: actions/checkout@v4
 
-      - name: Atualizar v do GIF
+      - name: Atualizar versão do GIF
         run: |
           python - <<'PY'
           import re
@@ -26,13 +26,19 @@ jobs:
           path = Path("readme.md")
 
           if not path.exists():
-              raise SystemExit("readme.md não encontrado!")
+              raise SystemExit("ERRO: readme.md não encontrado!")
 
           text = path.read_text(encoding="utf-8")
 
+          print("URL encontrada no README:")
+          for linha in text.splitlines():
+              if "worldinfinite.gif" in linha:
+                  print(linha)
+
           novo_v = int(time.time())
 
-          pattern = r'(https://worlds-qnkl\.onrender\.com/worldinfinite\.gif\?v=)\d+'
+          # Procura worldinfinite.gif?v=QUALQUER_NUMERO
+          pattern = r'(worldinfinite\.gif\?v=)\d+'
 
           novo_text, quantidade = re.subn(
               pattern,
@@ -42,15 +48,15 @@ jobs:
 
           if quantidade == 0:
               raise SystemExit(
-                  "A URL worldinfinite.gif?v=... não foi encontrada no readme.md"
+                  "ERRO: não encontrei worldinfinite.gif?v=NUMERO no readme.md"
               )
 
           path.write_text(novo_text, encoding="utf-8")
 
-          print(f"URL atualizada para v={novo_v}")
+          print(f"SUCESSO: v atualizado para {novo_v}")
           PY
 
-      - name: Commit e Push
+      - name: Salvar alteração
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
