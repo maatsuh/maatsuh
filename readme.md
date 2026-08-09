@@ -13,4 +13,4 @@ A cada dia, é um novo desafio.
 
 # Sei lá, cenários infinitos (Dê F5 para gerar um novo) (a cada 5 minutos)
 
-<img src="https://worlds-qnkl.onrender.com/worldinfinite.gif?v=1786294434" width="800">
+<img src="https://worlds-qnkl.onrender.com/worldinfinite.gif?v=1786296024" width="800">
