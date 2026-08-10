@@ -4,7 +4,7 @@
 
 # Linguagens
 
-![Java](https://img.shields.io/badge/Java-white?style=for-the-badge&color=gray)
+![Java](https://skillicons.dev/icons?i=java,spring,maven,gradle)
 
 
 # Jogo da croba 👍
