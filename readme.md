@@ -3,7 +3,7 @@
 
 # Habilidades
 
-![Icons](https://skillicons.dev/icons?i=java,spring,maven,gradle,python,mysql,git,github,linux,docker,vscode,idea)
+![Icons](https://skillicons.dev/icons?i=java,spring,maven,gradle,python,ts,mysql,git,github,linux,docker,vscode,idea)
 
 
 # Jogo da croba 👍
