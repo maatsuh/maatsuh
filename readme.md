@@ -2,9 +2,9 @@
 [![test](https://notreadme.onrender.com/r/maatsuh/my-readme/readme.svg)](https://notreadme.onrender.com/r/maatsuh/my-readme/readme.svg)
 
 
-# Linguagens
+# Habilidades
 
-![Java](https://skillicons.dev/icons?i=java,spring,maven,gradle)
+![Icons](https://skillicons.dev/icons?i=java,spring,maven,gradle,python,mysql,git,github,linux,docker,vscode,idea)
 
 
 # Jogo da croba 👍
