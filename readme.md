@@ -16,9 +16,5 @@ A cada dia, é um novo desafio.
 <img src="https://worlds-qnkl.onrender.com/worldinfinite.gif?v=1786330554" width="800">
 
 
-[![Banner](https://notreadme.onrender.com/api/banner?username=maatsuh&theme=maat&lang=pt-BR)](https://notreadme.onrender.com/api/banner?username=maatsuh&theme=maat&lang=pt-BR)
-[![GitHub Profile](https://notreadme.onrender.com/api/profile?username=maatsuh&theme=maat&lang=pt-BR)](https://notreadme.onrender.com/api/profile?username=maatsuh&theme=maat&lang=pt-BR)
-[![GitHub Stats](https://notreadme.onrender.com/api/stats?username=maatsuh&theme=maat&lang=pt-BR)](https://notreadme.onrender.com/api/stats?username=maatsuh&theme=maat&lang=pt-BR)
-[![Top Languages](https://notreadme.onrender.com/api/languages?username=maatsuh&theme=maat&lang=pt-BR)](https://notreadme.onrender.com/api/languages?username=maatsuh&theme=maat&lang=pt-BR)
-[![Recent Activity](https://notreadme.onrender.com/api/activity?username=maatsuh&theme=maat&lang=pt-BR)](https://notreadme.onrender.com/api/activity?username=maatsuh&theme=maat&lang=pt-BR)
-[![Contribution Activity](https://notreadme.onrender.com/api/activity?username=maatsuh&theme=maat&lang=pt-BR)](https://notreadme.onrender.com/api/activity?username=maatsuh&theme=maat&lang=pt-BR)
+[![Banner]([https://notreadme.onrender.com/api/banner?username=maatsuh&theme=maat&lang=pt-BR](https://notreadme.onrender.com/r/maatsuh/my-readme/readme.svg))]
+
