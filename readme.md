@@ -16,5 +16,4 @@ A cada dia, é um novo desafio.
 <img src="https://worlds-qnkl.onrender.com/worldinfinite.gif?v=1786330554" width="800">
 
 
-[![Banner]([https://notreadme.onrender.com/api/banner?username=maatsuh&theme=maat&lang=pt-BR](https://notreadme.onrender.com/r/maatsuh/my-readme/readme.svg))]
-
+[![test](https://notreadme.onrender.com/r/maatsuh/my-readme/readme.svg)](https://notreadme.onrender.com/r/maatsuh/my-readme/readme.svg)
