@@ -11,4 +11,4 @@
 
 # Sei lá, cenários infinitos (Dê F5 para gerar um novo) (a cada 5 minutos)
 
-<img src="https://worlds-qnkl.onrender.com/worldinfinite.gif?v=1786902213" width="800">
+<img src="https://worlds-qnkl.onrender.com/worldinfinite.gif?v=1786902965" width="800">
